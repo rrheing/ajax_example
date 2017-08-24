@@ -1,0 +1,28 @@
+<!-- HTML FILE BELOW -->
+<!-- This is the HTML page, and includes what the user sees depending on what JS action we use to trigger, 
+	this might look different, but the idea is still the same - trigger a JS function from an action on the page,
+	and then have that function (above) send it to  -->
+
+<p>Click one of the buttons below to combine with a value from the server</p>
+
+<button class="button" id="submit" onClick="functionName(100)">Add 100</button>
+<button class="button" id="submit" onClick="functionName(200)">Add 200</button>
+<button class="button" id="submit" onClick="functionName(300)">Add 300</button>
+
+	<br><br>
+		
+		<div>
+
+			<span id="resource">
+
+				I'm going to display server-generated content
+
+			</span>
+
+		</div>
+
+<!-- Call the jquery CDN link so we can use AJAX. -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Include the JS file so that the javascript function is included -->
+<script src="app.js"></script>
