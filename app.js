@@ -5,7 +5,7 @@
 function functionName(functionValue) {
 
 	// by using .post we're going to send a POST to resources.php and declare the resource ID
-	$.post('server_side_code.php', 
+	$.post('backend.php', 
 
 		{ 'functionValue': functionValue },
 
